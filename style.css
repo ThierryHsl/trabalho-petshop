@@ -1,0 +1,246 @@
+@media only screen and (max-width: 1199px) {
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_header {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+
+    .menu_footer {
+        display: none;
+    }
+
+    .user_icon {
+        height: 40px;
+        margin-top: 20px;
+        margin-right: 18px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menu_mobile_lista {
+        margin-top: 60px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .menu_mobile_item {
+        color: #02443b;
+        font-size: 22px;
+        font-weight: bold;
+        padding-left: 40px;
+        line-height: 75px;
+    }
+
+    #lista_cinza_1,  #lista_cinza_2 {
+        background: rgb(235, 235, 235);
+        height: 75px;
+    }
+
+    .main_desktop {
+        display: none;
+    }
+
+    .main_mobile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .animais_m {
+        transform: scale(0.9);
+        margin-top: 40px;
+        max-width: 500px;
+    }
+
+    article {
+        margin-left: 30px;
+        max-width: 350px;
+        margin-top: 60px;
+        color:#02443b;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .missao {
+        margin-top: 80px;
+    }
+
+    #titulo_individual_div_missao {
+        font-size: 90px;
+        transform: translateY(-190px) translateX(-35px);
+        opacity: 0.15;
+        position: absolute;
+    }
+
+    .valores {
+        margin-top: 120px;
+    }
+
+    #titulo_individual_div_valores {
+        font-size: 90px;
+        transform: translateY(-190px) translateX(-35px);
+        opacity: 0.15;
+        position: absolute;
+    }
+
+    .visao {
+        margin-top: 120px;
+    }
+
+    #titulo_individual_div_visao {
+        font-size: 90px;
+        transform: translateY(-190px) translateX(-35px);
+        opacity: 0.15;
+        position: absolute;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_header_lista {
+        display: flex;
+        color:#00917d;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+
+    .menu_header_item {
+        margin-left: 70px;
+    }
+
+    footer {
+        margin-bottom: 20px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_footer_lista {
+        display: flex;
+        color:#00917d;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+
+    .menu_footer_item {
+        margin-left: 70px;
+    }
+
+    .user_icon {
+        height: 40px;
+        margin-top: 20px;
+        margin-right: 18px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menu_mobile_lista {
+        display: none;
+    }
+
+    .main_desktop {
+        margin-top: 100px;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 50px;
+        justify-content: space-between;
+    }
+
+    .ao_lado {
+        margin-top: 55px;
+        transform: scale(0.8);
+    }
+
+    #gato_d {
+        margin-bottom: 40px;
+    }
+
+    .main_mobile {
+        display: none;
+    }
+
+    article {
+        margin-left: 30px;
+        max-width: 700px;
+        margin-top: 60px;
+        color:#02443b;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .missao {
+        margin-top: 80px;
+    }
+
+    #titulo_individual_div_missao {
+        font-size: 90px;
+        transform: translateY(-190px) translateX(-35px);
+        opacity: 0.15;
+        position: absolute;
+    }
+
+    .valores {
+        margin-top: 120px;
+    }
+
+    #titulo_individual_div_valores {
+        font-size: 90px;
+        transform: translateY(-190px) translateX(-35px);
+        opacity: 0.15;
+        position: absolute;
+    }
+
+    .visao {
+        margin-top: 120px;
+    }
+
+    #titulo_individual_div_visao {
+        font-size: 90px;
+        transform: translateY(-190px) translateX(-35px);
+        opacity: 0.15;
+        position: absolute;
+    }
+
+}
